@@ -64,7 +64,7 @@ Use the ``Use the Starter Kit`` button **OR** create the services and run locall
     * watson-news-intelligence-discovery-1525714616589
 
 ## Run locally
-> NOTE: These steps are only needed when running locally instead of using the ``Deploy to IBM Cloud`` button.
+> NOTE: These steps are only needed when running locally instead of using the ``Try the Starter Kit`` button.
 
 1. [Clone the repo](#1-clone-the-repo)
 2. [Create Watson services with IBM Cloud](#2-create-watson-services-with-ibm-cloud)
