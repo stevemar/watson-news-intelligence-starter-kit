@@ -55,7 +55,7 @@ Use the ``Try the Starter Kit`` button **OR** create the services and run locall
 > TODO: Update these old d2b instructions to describe the "Starter Kit Experience" TM
    * explain what options are there (cloud, docker, download...)
 
-[![Try the starter kit](doc/source/images/try_the_starter_kit.png)](https://console.bluemix.net/developer/watson/create-project?starterKit=51d65dc8-1125-3cea-845d-5161aa6105f4)
+[![Try the starter kit](doc/source/images/try_the_starter_kit.png)](https://console.bluemix.net/developer/watson/create-app?env_id=ibm%3Ayp%3Aus-south&languages=node&services=discovery&starterKit=51d65dc8-1125-3cea-845d-5161aa6105f4)
 
 1. Press the above ``Try the Starter Kit`` button and then click on ``Deploy``.
 
