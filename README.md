@@ -178,19 +178,3 @@ Example results from a week with Hawaiian volcano activity:
 
 # License
 [Apache 2.0](LICENSE)
-
-### Directory structure
-> TODO: put the dir structure in DEV.md
-
-```none
-.
-├── public                          // static resources
-├── server                          // server app
-│   ├── config                      // express configuration
-│   ├── routers                      // express routers
-│   ├── services                     // express services
-|   └── server.js                    // entry point
-├── test                             // tests
-├── package.json
-└── views                           // react components
-```
