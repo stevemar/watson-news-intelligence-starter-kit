@@ -48,15 +48,16 @@ Select components from [here](https://github.ibm.com/developer-journeys/journey-
 > We don't do videos for starter kits, right?
 
 # Steps
-Use the ``Use the Starter Kit`` button **OR** create the services and run locally.
+Use the ``Try the Starter Kit`` button **OR** create the services and run locally.
 
-## Use the Starter Kit
+## Try the Starter Kit
 
 > TODO: Update these old d2b instructions to describe the "Starter Kit Experience" TM
+   * explain what options are there (cloud, docker, download...)
 
-[![Try the starter kit](https://bluemix.net/deploy/button.png)](https://console.bluemix.net/developer/watson/create-project?starterKit=51d65dc8-1125-3cea-845d-5161aa6105f4)
+[![Try the starter kit](doc/source/images/try_the_starter_kit.png)](https://console.bluemix.net/developer/watson/create-project?starterKit=51d65dc8-1125-3cea-845d-5161aa6105f4)
 
-1. Press the above ``Use the Starter Kit`` button and then click on ``Deploy``.
+1. Press the above ``Try the Starter Kit`` button and then click on ``Deploy``.
 
 2. In Toolchains, click on Delivery Pipeline to watch while the app is deployed. Once deployed, the app can be viewed by clicking 'View app'.
 
