@@ -27,10 +27,9 @@ When the reader has completed this Code Pattern, they will understand how to:
 ![](doc/source/images/architecture.png)
 
 ## Flow
-1. Step 1.
-2. Step 2.
-3. Step 3.
-4. Step 4.
+1. The Watson Discovery Service is continually crawling the web to update its Discovery News collection.
+2. The user interacts with the app UI to request relevant news content.
+3. The app sends user requests to Watson Discovery News.
 
 <!--Update this section-->
 ## Included components
