@@ -48,21 +48,26 @@ Select components from [here](https://github.ibm.com/developer-journeys/journey-
 > We don't do videos for starter kits, right?
 
 # Steps
-Use the ``Try the Starter Kit`` button **OR** create the services and run locally.
+
+This Code Pattern is based on a Starter Kit. You can use this repo stand-alone by following the [run locally](#run-locally) instructions below, or use the `Try the starter kit` button to take advantage of additional deployment options.
 
 ## Try the Starter Kit
 
-> TODO: Update these old d2b instructions to describe the "Starter Kit Experience" TM
-   * explain what options are there (cloud, docker, download...)
+[![Try the starter kit](doc/source/images/try_the_starter_kit.png)](https://console.bluemix.net/developer/watson/create-app?languages=node&services=discovery&starterKit=51d65dc8-1125-3cea-845d-5161aa6105f4)
 
-[![Try the starter kit](doc/source/images/try_the_starter_kit.png)](https://console.bluemix.net/developer/watson/create-app?env_id=ibm%3Ayp%3Aus-south&languages=node&services=discovery&starterKit=51d65dc8-1125-3cea-845d-5161aa6105f4)
+1. Press the above `Try the starter kit` button.
 
-1. Press the above ``Try the Starter Kit`` button and then click on ``Deploy``.
+1. Review/edit the details on the `Create app` page and then click on `Create`.
 
-2. In Toolchains, click on Delivery Pipeline to watch while the app is deployed. Once deployed, the app can be viewed by clicking 'View app'.
+1. Optionally, click on `Download code` to download the Starter Kit code. This will give you a zip file of generated code giving you additional options to run locally, including:
+   * Running locally with Docker
+   * Running locally and deploying to the IBM Cloud as a Cloud Foundry application
 
-3. To see the app and services created and configured for this Code Pattern, use the IBM Cloud dashboard. The app is named `WatsonNewsIntelligence` with a unique suffix. The following services are created <!-- and easily identified by the `wbc-` prefix -->:
-    * watson-news-intelligence-discovery-1525714616589
+1. Click on the `Deploy to Cloud` button to deploy directly to the IBM Cloud with the following options:
+   * Provision the app to a Kubernetes cluster
+   * Deploy the app as a Cloud Foundry app
+
+If using these Starter Kit options, follow the instructions that are included in the UI and/or the download. Use the instructions below to run locally directly from this repo.
 
 ## Run locally
 > NOTE: These steps are only needed when running locally instead of using the ``Try the Starter Kit`` button.
