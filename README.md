@@ -1,28 +1,12 @@
-> TODO: Should we add travis and run the included tests if they work?
+# Watson News Intelligence
 
-# Watson News Intelligence starter kit
-
-The Watson News Intelligence starter kit for Node.js visualizes the results of [Discovery](https://www.ibm.com/watson/services/discovery) queries. The app searches [Discovery News](https://www.ibm.com/watson/services/discovery-news) data to get insights from the news, including related concepts, entities, and sentiment trends.
-
-> TODO: Reverse engineer and document:
-   * what the kit does (intro and overview)
-   * goals
-   * architecture
-   * flow
-   * components used, featured tech
-   * sample output
-   * troubleshooting tips
-   * links
-   * add section(?) to refer to the actual starter kit
-
-In this Code Pattern, we will [create something] using [technologies] and [components]. [Explain briefly how things work]. [Give acknowledgements to others if necessary]
+The Watson News Intelligence Code Pattern for Node.js visualizes the results of [Discovery](https://www.ibm.com/watson/services/discovery) queries. The app searches [Discovery News](https://www.ibm.com/watson/services/discovery-news) data to get insights from the news, including related concepts, entities, and sentiment trends.
 
 When the reader has completed this Code Pattern, they will understand how to:
 
-* [goal 1]
-* [goal 2]
-* [goal 3]
-* [goal 4]
+* Build a web app with Node.js and Express
+* Query Watson Discovery to gain insights
+* Create a graphical user interface with React
 
 ![](doc/source/images/architecture.png)
 
@@ -31,20 +15,13 @@ When the reader has completed this Code Pattern, they will understand how to:
 2. The user interacts with the app UI to request relevant news content.
 3. The app sends user requests to Watson Discovery News.
 
-<!--Update this section-->
 ## Included components
-Select components from [here](https://github.ibm.com/developer-journeys/journey-docs/tree/master/_content/dev#components), copy and paste the raw text for ease
-* [Component](link): description
-* [Component](link): description
+* [Watson Discovery](https://www.ibm.com/watson/developercloud/discovery.html): A cognitive search and content analytics engine for applications to identify patterns, trends, and actionable insights.
 
-<!--Update this section-->
 ## Featured technologies
-Select components from [here](https://github.ibm.com/developer-journeys/journey-docs/tree/master/_content/dev#technologies), copy and paste the raw text for ease
-* [Technology](link): description
-* [Technology](link): description
-
-# Watch the Video
-> We don't do videos for starter kits, right?
+* [Node.js](https://nodejs.org/en/) - An asynchronous event driven JavaScript runtime, designed to build scalable applications
+* [React](https://facebook.github.io/react/) - Javascript library for building User Interfaces
+* [Express](https://expressjs.com) - A popular and minimalistic web framework for creating API and Web server
 
 # Steps
 
@@ -66,10 +43,10 @@ This Code Pattern is based on a Starter Kit. You can use this repo stand-alone b
    * Provision the app to a Kubernetes cluster
    * Deploy the app as a Cloud Foundry app
 
-If using these Starter Kit options, follow the instructions that are included in the UI and/or the download. Use the instructions below to run locally directly from this repo.
+If using these Starter Kit options, follow the instructions in the UI and/or the download.
 
 ## Run locally
-> NOTE: These steps are only needed when running locally instead of using the ``Try the Starter Kit`` button.
+> NOTE: These steps are only needed when running locally instead of using the ``Try the starter kit`` button.
 
 1. [Clone the repo](#1-clone-the-repo)
 2. [Create Watson services with IBM Cloud](#2-create-watson-services-with-ibm-cloud)
@@ -162,16 +139,15 @@ Example results from a week with Hawaiian volcano activity:
 
 ![](doc/source/images/sample_output.png)
 
-# Troubleshooting
-
-* Error placeholder
-
-  > Explanation placeholder
-
 # Links
-*
-*
-* 
+* [Watson Node.js SDK](https://github.com/watson-developer-cloud/node-sdk): Download the Watson Node SDK.
+* [Cognitive discovery architecture](https://www.ibm.com/cloud/garage/content/architecture/cognitiveDiscoveryDomain): Learn how this Code Pattern fits into the Cognitive discovery Reference Architecture.
+* [Overview of the Watson Discovery service](https://www.ibm.com/watson/services/discovery/): Extract value from unstructured data by converting, normalizing, enriching it.
+* [Three ways IBM has evolved Alchemy Data News into Watson Discovery News and made it even better](https://www.ibm.com/blogs/watson/2017/04/3-ways-ibm-evolved-alchemy-data-news-watson-discovery-news-made-even-better/): Watson Discovery News takes big steps forward in NLP-enriched news search.
+* [IBM launches Watson Discovery Service for big data analytics at scale](https://www.techrepublic.com/article/ibm-launches-watson-discovery-service-for-big-data-analytics-at-scale/):
+Suite of APIs makes it easier for companies to ingest and analyze their data, even if they don’t have advanced degrees in data science.
+* [SlideShare: Building with Watson – Network Visualizations using Watson Discovery](https://www.slideshare.net/IBMWatson/building-with-watson-network-visualizations-using-watson-discovery): See an app built on the Watson Discovery Service and D3.js that helps you explore your data using a network map built on NLP metadata.
+
 
 # Learn more
 
