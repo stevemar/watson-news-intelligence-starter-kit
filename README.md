@@ -122,13 +122,13 @@ The results will include the following sections.
 **Top Entities** shows a word cloud showing frequently mentioned entities for your search term. The words are sized to indicate their significance. You can click on the tabs to show entities that are topics, companies, or people.
 
 ## Top Stories
-**Top Stories** shows a the top news stories that matched your search. You can sort the articles by relevance or by date.
+**Top Stories** shows the top news stories that matched your search. You can sort the articles by relevance or by date.
 
 ## Sentiment Analysis
-**Sentiment Analysis** shows the postitive/neutral/negative sentiment breakdown of the news articles from a variety of news sources.
+**Sentiment Analysis** shows the positive/neutral/negative sentiment breakdown of the news articles from a variety of news sources.
 
 ## Anomaly Detection
-**Anomaly Detection** shows the number of articles over the specificed time period and highlights anomalies, if any, with a red dot. You can hover over the chart to get additional details about each data point -- including an example headline.
+**Anomaly Detection** shows the number of articles over the specified time period and highlights anomalies, if any, with a red dot. You can hover over the chart to get additional details about each data point -- including an example headline.
 
 ## Co-Mentions & Trends
 **Co-Mentions & Trends** shows entities that are commonly co-mentioned with your search entity and charts the trend for each entity pair. The chart tracks positive and negative sentiment for the pair over time. The total number of mentions and overall sentiment is also listed for each co-mentioned entity pair.
